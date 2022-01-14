@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>contact</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div class="grid-content">
+        <div class="border1">
+        
+     <header>
+        <div class="border2">
+        <h1>Contactformulier</h1>
+        </div>
+     </header>
+     <br>
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+               <label>Naam:<input type="text" name="name" /></label>
+            </p>
+            <br>
+            <p>
+               <label>E-mail: <input type="email" name="email" /></label>
+            </p>
+            <br>
+            <p>
+               <label>Telefoonnummer: <input type="tel" name="tel"/></label>
+            </p>
+            <br>
+            <p>
+                <label>Leeftijd:<input type="number" name="number"/></label>
+            </p>
+            <br>
+            <p>
+                <label>Geboortedatum:<input type="date" name="date" /></label>
+            </p>
+            <br>
+            <p>
+                <label>Geslacht:
+                <br>
+                <input type="radio" id="man" name="radio" value="man">
+                <label for="id">man</label><br>
+                <input type="radio" id="vrouw" name="radio" value="vrouw">
+                <label for="css">vrouw</label><br>
+                <input type="radio" id="doet er niet toe" name="radio" value="doet er niet toe">
+                <label for="javascript">doet er niet toe</label> 
+             </p>
+             <br>
+            <p>
+               <label>Bericht:<textarea name="message"></textarea></label>
+            </p>
+            <br>
+            <p>
+               <button type="submit">verzenden</button>
+            </p>
+            <p>
+               <button type="reset">resetten</button>
+            </P>
+          </form>  
+          <br>
+          <footer>
+            <p> terug naar de <a href="index.html">beginpagina</a></p>
+          </footer>
+          </div>
+          </div>
+    </body>
+</html>
